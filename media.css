@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  .header-wrp {
+    background-image: url(./img/backgrounds/header-bg@tablet.jpg);
+    min-width: 708px;
+    min-height: 700px;
+  }
+  .--header-btn-logo-wrp {
+    max-width: 700px;
+  }
+  .header-title {
+    font-size: 52px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+  }
+  .teem-link {
+    height: 245px;
+  }
+}
+
+@media (min-width: 960px) {
+  .header-wrp {
+    background-image: url(./img/backgrounds/header-bg@desktop.jpg);
+    min-width: 920px;
+  }
+  .teem-link {
+    max-width: 230px;
+    text-align: center
+  }
+  .link-img-icon {
+    left: 145;
+  }
+  .teem-link-text {
+    text-align: center;
+    width: 98%;
+  }
+}
